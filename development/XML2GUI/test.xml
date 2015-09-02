@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML2GUI>
+	<formulario contenedor="si" id="forma" tipoFormulario="multipart/form-data" metodo="POST" nombreFormulario="forma">
+		<cadenaCodificada>
+			<cadena>PGRpdj5lc3RvIGVzIHVuYSBwcnVlYmEgZGUgbGEgY2FkZW5hIGNvZGlmaWNhZGE8L2Rpdj4</cadena>
+		</cadenaCodificada>
+		<campoMensaje>
+			<id>id</id>
+			<tamanno>pequenno</tamanno>
+			<mensaje>mensaje</mensaje>
+		</campoMensaje>
+		<campoBoton>
+			<id>id</id>
+			<tipo>boton</tipo>
+			<tabIndex>1</tabIndex>
+			<valor>Bot0n</valor>
+			<nombreFormulario>forma</nombreFormulario>
+			<onclick>alert('mensaje!!');</onclick>
+		</campoBoton>
+	</formulario>
+	<campoEspacio></campoEspacio>
+	<formulario contenedor="si" id="forma2" tipoFormulario="multipart/form-data" metodo="POST" nombreFormulario="forma2">
+		<division contenedor="si" id="division">
+			<campoMensaje>
+				<id>idMensaje</id>
+				<tamanno>pequenno</tamanno>
+				<mensaje>este mensaje</mensaje>
+			</campoMensaje>
+		</division>
+	</formulario>
+</XML2GUI>

@@ -1,0 +1,27 @@
+@CHARSET "ISO-8859-1";
+
+.divisionBloques,.xmlTexto {
+	border: 1px solid #EEEEEE;
+	background:#84ADB0;
+	border-radius: 15px;
+}
+.divXMLTexto{
+	margin: 0 auto;
+}
+
+.xmlTexto{
+	display: block;
+    vertical-align: middle;
+}
+
+.expandido{
+	color:#84ADB0;
+}
+
+.contraido{
+	color:black;
+}
+
+.expandido:hover,.contraido:hover{
+	cursor:pointer;
+}
